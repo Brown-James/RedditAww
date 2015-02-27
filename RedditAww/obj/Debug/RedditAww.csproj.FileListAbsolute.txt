@@ -1,0 +1,12 @@
+E:\James\Dropbox\Programming\C#\RedditAww\RedditAww\bin\Debug\RedditAww.exe.config
+E:\James\Dropbox\Programming\C#\RedditAww\RedditAww\bin\Debug\RedditAww.exe
+E:\James\Dropbox\Programming\C#\RedditAww\RedditAww\bin\Debug\RedditAww.pdb
+E:\James\Dropbox\Programming\C#\RedditAww\RedditAww\bin\Debug\HtmlAgilityPack.dll
+E:\James\Dropbox\Programming\C#\RedditAww\RedditAww\bin\Debug\Newtonsoft.Json.dll
+E:\James\Dropbox\Programming\C#\RedditAww\RedditAww\bin\Debug\RedditSharp.dll
+E:\James\Dropbox\Programming\C#\RedditAww\RedditAww\bin\Debug\HtmlAgilityPack.pdb
+E:\James\Dropbox\Programming\C#\RedditAww\RedditAww\bin\Debug\HtmlAgilityPack.xml
+E:\James\Dropbox\Programming\C#\RedditAww\RedditAww\bin\Debug\Newtonsoft.Json.xml
+E:\James\Dropbox\Programming\C#\RedditAww\RedditAww\obj\Debug\RedditAww.csprojResolveAssemblyReference.cache
+E:\James\Dropbox\Programming\C#\RedditAww\RedditAww\obj\Debug\RedditAww.exe
+E:\James\Dropbox\Programming\C#\RedditAww\RedditAww\obj\Debug\RedditAww.pdb
