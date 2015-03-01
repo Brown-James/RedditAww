@@ -70,12 +70,12 @@ namespace RedditAww
                                 imageUrl = "http://i.imgur.com/" + imageId + "." + imageType;
                             }
 
+                            Uri properImageUrl = new Uri(imageUrl);
+
                             Console.WriteLine("Downloading : " + post.Url + "     Author : " + post.Author.FullName);
                             Console.WriteLine("Post: " + post.Title);
 
-                            // Create the directory for the image and download it
-                            Directory.CreateDirectory("E:/James/" + subredditStr + "/" + post.Author.FullName);
-                            client.DownloadFileAsync(post.Url, @"E:/James/" + subredditStr + "/" + post.Author.FullName + "/" + imageId + "." + imageType);
+                            DownloadImage(client, properImageUrl, "E:/James/" + subredditStr + "/" + post.Author.FullName, imageId, imageType);
                         }
                     }
                 }
@@ -83,6 +83,21 @@ namespace RedditAww
 
             Console.WriteLine("Complete!");
             Console.ReadLine();
+        }
+
+        static void DownloadImage(WebClient client, Uri imageUrl, string savePath, string imageId, string imageType)
+        {
+            if(!Directory.Exists(savePath))
+            {
+                Directory.CreateDirectory(savePath);
+            }
+
+            client.DownloadFileAsync(imageUrl, @savePath + "/" + imageId + "." + imageType);
+        }
+
+        static void DownloadAlbum()
+        {
+
         }
     }
 }
